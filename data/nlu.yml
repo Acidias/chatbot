@@ -89,3 +89,10 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: time_table
+  examples: |
+    - where is my time table?
+    - how can I access my time table?
+    - I can not see my time table
+    - my time table is empty

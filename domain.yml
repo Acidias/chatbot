@@ -8,15 +8,15 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - module
+  - time_table
   
 slots:
-  module:
+  time_table:
     type: text
-    influence_coversation: false
+    influence_conversation: false
     mappings:
     - type: from_entity
-      entity: module
+      entity: time_table
 
 responses:
   utter_greet:
@@ -37,6 +37,9 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_time_table:
+  - text: "You can email to SASH team for further guidance."
 
 session_config:
   session_expiration_time: 60
